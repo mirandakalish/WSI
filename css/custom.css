@@ -8,11 +8,24 @@ h2 {
 	text-align:center;
 }
 
-
 .btn {
 	margin-top:25px;
-
 }
+
+body.index {
+	background-image:url(http://placehold.it/1440x900);
+}
+
+.heading {
+	margin-top:150px;
+}
+
+
+
+
+
+
+
 
 
 body { 

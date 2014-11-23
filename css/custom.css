@@ -35,8 +35,15 @@ body.index {
 	margin-left:-50px;
 }
 
+.events-info {
+	margin-top:50px;
+	margin-bottom:50px;
+	text-align:center;
+}
 
-
+.events-images {
+	margin-bottom:20px;
+}
 
 
 body { 

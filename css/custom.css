@@ -24,7 +24,16 @@ body.index {
 	text-align:center;
 }
 
+.portrait {
+	margin-top:50px;
+	padding-bottom:50px;
+}
 
+.bio {
+	margin-top:50px;
+	padding-bottom:50px;
+	margin-left:-50px;
+}
 
 
 

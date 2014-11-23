@@ -47,15 +47,51 @@
 </nav>
 
 
-<container>
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">         
-      <div class="modal-body">               
+<div class="container">
+  <div class="heading">
+    <h1>Get in Touch!</h1>
+  </div>
+  <div class="contact-content">
+    <!-- Button trigger modal -->
+    <button class="btn btn-primary btn-lg col-md-offset-5" data-toggle="modal" data-target="#signUpModal">
+      Join Our Email List!
+    </button>
+
+  <!-- Modal -->
+    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">Sign up to receive biweekly emails from us!</h4>
+          </div>
+          
+          <div class="modal-body">
+            <form role="form" action="//forms.brace.io/mirandakalish@wustl.edu" method="POST">
+              <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="First Name, Last Name" name="name">
+                </div>
+                <div class="form-group">
+                  <label for="email-address">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email address here" name="email">
+                </div>
+              <button type="submit" class="btn btn-default">Submit
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
+    </div>
+      <br>
+       <a class="btn btn-primary btn-lg col-md-offset-5" href="#">
+      Facebook</a><br>
+      <a class="btn btn-primary btn-lg col-md-offset-5" href="#">
+      Email</a>
+  </div>
+</div>
+
+
       
 
 
@@ -66,21 +102,6 @@
     <script src="/twitter-bootstrap/twitter-bootstrap-v2/docs/assets/js/jquery.js"></script>  
     <script src="/twitter-bootstrap/twitter-bootstrap-v2/docs/assets/js/bootstrap-dropdown.js"></script>  
     <script src="/twitter-bootstrap/twitter-bootstrap-v2/docs/assets/js/bootstrap-scrollspy.js"></script>  
-
-<script>  $(document).ready(function(){
-           $('img').on('click',function(){
-                var src = $(this).attr('src');
-                var img = '<img src="' + src + '" class="img-responsive"/>';
-                $('#myModal').modal();
-                $('#myModal').on('shown.bs.modal', function(){
-                    $('#myModal .modal-body').html(img);
-                });
-                $('#myModal').on('hidden.bs.modal', function(){
-                    $('#myModal .modal-body').html('');
-                });
-           });  
-        })
-</script>
 
 </body>
 

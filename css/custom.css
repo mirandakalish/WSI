@@ -12,7 +12,7 @@ h2 {
 	margin-top:25px;
 }
 
-body.index {
+body.index, body.contact {
 	background-image:url(http://placehold.it/1440x900);
 }
 
@@ -45,6 +45,13 @@ body.index {
 	margin-bottom:20px;
 }
 
+.btn {
+	text-align:center;
+}
+
+.col-md-offset-5 {
+	width:190px;
+}
 
 body { 
 	padding-top: 70px; 

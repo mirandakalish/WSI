@@ -62,3 +62,7 @@ body {
 body { 
 	padding-top: 70px; 
 }
+
+body.what img {
+    cursor:pointer;
+}

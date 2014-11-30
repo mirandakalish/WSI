@@ -31,12 +31,14 @@ body {
 }
 
 .bio {
-	margin-top:100px;
+	margin-top:50px;
 	margin-left:-100px;
 	background-color:#fff;
 	padding-bottom:-15px;
 	padding-left:10px;
 	padding-right:5px;
+	padding-top:60px;
+	height:263px;
 }
 
 .events-info {

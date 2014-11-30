@@ -13,7 +13,7 @@ h2 {
 }
 
 body {
-	background-image:url(http://placehold.it/1440x900);
+	background-image:url(../background.jpg);
 }
 
 .heading {
@@ -22,6 +22,7 @@ body {
 
 .board-heading {
 	text-align:center;
+	color:#fff;
 }
 
 .portrait {
@@ -31,8 +32,11 @@ body {
 
 .bio {
 	margin-top:100px;
-	padding-bottom:50px;
 	margin-left:-100px;
+	background-color:#fff;
+	padding-bottom:-15px;
+	padding-left:10px;
+	padding-right:5px;
 }
 
 .events-info {

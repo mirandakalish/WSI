@@ -8,9 +8,6 @@ h2 {
 	text-align:center;
 }
 
-.btn {
-	margin-top:25px;
-}
 
 body {
 	background-image:url(../background.jpg);
@@ -32,9 +29,9 @@ body {
 
 .bio {
 	margin-top:50px;
-	margin-left:-100px;
+	margin-bottom:10px;
 	background-color:#fff;
-	padding-bottom:-15px;
+	padding-bottom:20px;
 	padding-left:10px;
 	padding-right:5px;
 	padding-top:60px;
@@ -52,11 +49,7 @@ body {
 	margin-bottom:20px;
 }
 
-.btn {
-	text-align:center;
-}
-
-.col-md-offset-5 {
+.col-xs-offset-5 {
 	width:190px;
 }
 
@@ -66,4 +59,16 @@ body {
 
 body.what img {
     cursor:pointer;
+}
+
+.thumbnail {
+	height:580px;
+}
+
+.btn {
+	display:block;
+	margin-top:25px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
 }
